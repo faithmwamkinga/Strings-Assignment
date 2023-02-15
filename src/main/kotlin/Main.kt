@@ -2,8 +2,7 @@
 fun main(){
 nameOfInstitution()
 
- println(sentence("Angel", 45, "Hi"
- ))
+ println(sentence("Angel", 45, "Hi"))
  println(schoolsubject("Geography"))
  println()
  sentence1()
@@ -18,13 +17,15 @@ println(nameOfInstitution[1])
 fun sentence(name:String, Age:Int, Greeting:String):String {
 
  val sentence = "Hi my name is $name and I am $Age"
- return sentence}
+ return sentence
+}
 
- //Write a function that takes in a String and returns its length
+
 
  fun schoolsubject(subject:String):Int {
 
-  return 8
+  return subject.length
+
  }
 
 
